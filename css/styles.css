@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(106, 17, 203,0.6), rgba(37,117,252,0.6)),url("../img/bombonera.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff
+}
+
+
+
+.principal h1{
+    margin-bottom: 3rem;
+}
+
+.logo{
+    height: 4rem;
+    margin-top: 1rem;
+}
+
+.imagen_medio{
+    position: relative;
+}
+
+.riquelme{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.text-description {
+    letter-spacing: 2px;
+    font-family: sans-serif;    
+}
+
+.form-control {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+::placeholder{
+  color: rgba(255, 255, 255, 0.4) !important; 
+}
+
+
+a .fab {
+    color: #ffc;
+    font-size: 30px;
+    margin: 0 10px;
+}
